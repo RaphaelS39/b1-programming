@@ -23,30 +23,5 @@ print(f"Costs: ${costs:,.2f}")
 print(f"Profit: ${profit:,.2f}")
 print(f"Profit Margin: {margin:.1f}%")
 
-class BuisnessCalculator():
-    
-    revenue = float(input("Enter total revenue: $"))
-    costs = float(input("Enter total costs: $"))
-    
-    def __init__(self):
-        pass
-    
-    def calculate_profit(revenue, costs):
-        profit = revenue - costs 
-        return profit
-    
-    def calculate_margin(revenue, costs):
-        margin = (profit / revenue) * 100
-        return margin
-    
 
 
-revenue = float(input("Enter total revenue: $"))
-costs = float(input("Enter total costs: $"))
-
-def calculate_profit(revenue, costs):
-    profit = revenue - costs 
-    return profit
-def calculate_margin(revenue, costs):
-    margin = (profit / revenue) * 100
-    return margin
